@@ -71,11 +71,11 @@
               <div class="d-flex flex-row bd-highlight mb-3">
                 <p class="navbar-text text-primary ">Welcome {{user.username}}</p>
                 <a class="nav-link font-weight-bold " style="font-size: 16px; color: #410064;"
-                  href="{% url 'Signout' %}">Signout</a>
+                  href="{% url 'signuppage' %}">signuppage</a>
 
               </div>
               {%else%}
-              <a href="{% url 'signin'%}" class="btn-primary p-2">signin</a>
+              <a href="{% url 'signinpage'%}" class="btn-primary p-2">signinpage</a>
               {%endif%}
 
             </div>

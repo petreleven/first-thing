@@ -40,6 +40,8 @@ def signuppage( request ):
          print(Lastname)
          newUser.save()
      return render(request, "signup.html")
+def homepage( request ):
+     return render(request, "homepage.html")
 
 
 
